@@ -149,7 +149,7 @@ adb logcat -d | findstr /I "PWNSEC"
 
 ---
 
-## 🏁 Flag trouvé
+##  Flag trouvé
 
 ```
 PWNSEC{W3'r3_N0t_T0015_0f_Th3_g0v3rnm3n7_OR_4ny0n3_3ls3}
