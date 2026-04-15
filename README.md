@@ -84,7 +84,7 @@ Nous allons les neutraliser en modifiant le code Smali.
 
 <p align="center"> <img src="./images/4.png" width="800"> <br> <em>Figure 4 : Patch des fonctions de détection</em> </p>
 
-🔧 Modification effectuée :
+ Modification effectuée :
 
 ```smali
 const/4 v0, 0x0
@@ -92,8 +92,8 @@ return v0
 ```
 
  Cela force toutes les fonctions à retourner false, donc :
-✔ aucune détection root  
-✔ aucune protection active  
+ aucune détection root  
+ aucune protection active  
 
 ---
 
