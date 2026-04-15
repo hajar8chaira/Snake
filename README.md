@@ -123,15 +123,15 @@ apksigner sign --ks mykeystore.jks snake_patched.apk
 adb install -r snake_patched.apk
 ```
 
-<p align="center"> <img src="./images/7.png" width="800"> <br> <em>Figure 7 : Installation réussie</em> </p>
+<p align="center"> <img src="./images/8.png" width="800"> <br> <em>Figure 7 : Installation réussie</em> </p>
 
 ---
 
 ##  Étape 8 : Lancement de l’application
 
-<p align="center"> <img src="./images/8.png" width="400"> <br> <em>Figure 8 : Demande de permission</em> </p>
+<p align="center"> <img src="./images/9.png" width="400"> <br> <em>Figure 8 : Demande de permission</em> </p>
 
-<p align="center"> <img src="./images/9.png" width="400"> <br> <em>Figure 9 : Interface principale</em> </p>
+<p align="center"> <img src="./images/10.png" width="400"> <br> <em>Figure 9 : Interface principale</em> </p>
 
 ---
 
@@ -145,7 +145,7 @@ adb shell am start -n com.pwnsec.snake/.MainActivity
 adb logcat -d | findstr /I "PWNSEC"
 ```
 
-<p align="center"> <img src="./images/10.png" width="800"> <br> <em>Figure 10 : Extraction du flag depuis logcat</em> </p>
+<p align="center"> <img src="./images/11.png" width="800"> <br> <em>Figure 10 : Extraction du flag depuis logcat</em> </p>
 
 ---
 
